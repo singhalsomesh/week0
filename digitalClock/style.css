@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #40A2E3;
+}
+
+.container{
+    width: 50rem;
+    height: 30rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box{
+    margin-left: 36%;
+    color: #fff;
+}
+
+.messageDiv {
+    position: relative;
+    display: inline-block;
+  }
+  
+.messageDiv::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    top: 5rem;
+    left: 14%;
+  }
+
+.timeDiv{
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.timeDiv h1{
+    font-weight: bold;
+}
