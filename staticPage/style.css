@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.image-div {
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+}
+  
+.image-div img {
+    width: 100%;
+    height: 100%; 
+    object-fit:cover; 
+    display: block;
+}
+ .about-section{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    height: 40rem;
+ }
+
+ .player-info {
+    width: 30rem;
+    height: 30rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F3B95F;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  strong {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+
+  .table-container {
+    width: 30rem;
+    height: 30rem;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F3B95F;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  tbody tr{
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  tbody :hover{
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
